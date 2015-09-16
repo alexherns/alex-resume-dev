@@ -6,26 +6,35 @@ html, body {
 	height: 100%;
 }
 
-body {
-/*	position: relative;*/
-}
-
 .jumbotron {
-	height: 100%;
+	max-height: 100%;
+	min-height: 100%;
 	background-color: #C0DFD9;
 	color: white;
+	padding-top: 100px;
 }
 
 .jumbotron h1 {
-	padding-top: 20%;
-}
+	font-weight: 100px;
+	font-family: "Courier New", Courier, monospace
+	}
 
 .navbar {
 	position: fixed;
 	top: 100px;
-	right: 00px;
+	right: 10px;
 	margin-left: 10px;
+	font-weight: 600;
 }
+
+.navbar li.active a{
+	background-color: #3B3A36 !important;
+	color: #FFFFFF !important;
+	}
+	
+.navbar li a {
+	color: #3B3A36 !important;
+	}
 
 .background-light {
 	background-color: #FFFFFF;
@@ -46,7 +55,22 @@ body {
 .contact h1 {
 	color: white;
 	}
-
+	
+.contact ul {
+	font-size: 16px;
+	list-style: none;
+	}
+	
+.contact li {
+	padding-bottom: 8px;
+	}
+	
+.contact-list {
+	padding-top: 80px;
+	padding-bottom: 80px;
+	border-bottom: 1px solid #FFFFFF;
+	}
+	
 .section_header {
 	border-bottom: 1px solid #E4E4E4;
 }
@@ -69,6 +93,10 @@ body {
 .experiences {
 	margin-top: 40px;
 	}
+
+.location {
+	color: #3C948B;
+	}
 	
 .skills {
 	margin-top: 40px;
@@ -81,9 +109,17 @@ body {
 .ability-title {
 	font-size: 18px;
 	}
+
+.ability-score {
+	margin-right: 100px;
+	}
 	
 .experience {
 	padding-bottom: 20px;
+	}
+
+.experience ul {
+	margin-right: 100px;
 	}
 
 .filled {
